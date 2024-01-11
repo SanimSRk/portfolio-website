@@ -241,3 +241,59 @@ input::placeholder,
 textarea::placeholder {
   font-size: 18px;
 }
+
+/*responce web site laout*/
+
+/*mobile divce responce*/
+@media screen and (max-width: 576px) {
+  .skill_contner {
+    flex-direction: column;
+  }
+  #what_I_do_descoption {
+    padding: 20px 20px;
+  }
+  .resume_container {
+    flex-direction: column;
+  }
+  .about {
+    padding: 0 10px;
+  }
+  .about_info_contenter {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .info_desction {
+    margin-top: 5px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 100px 10px;
+  }
+  .footer_colum {
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    margin: 0 20px;
+    padding-top: 5px;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin-top: 20px;
+  }
+  .header_areya {
+    background-image: none;
+  }
+  .banner {
+    padding: 10px 2px;
+    flex-direction: column;
+  }
+  .hardy_img {
+    width: 100%;
+  }
+  .banner_content {
+    width: 100%;
+  }
+}
